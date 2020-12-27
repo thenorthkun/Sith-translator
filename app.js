@@ -1,21 +1,11 @@
-// console.log("Hello! Script is working ")
-
-// alert("This script works")
-
-// var username = prompt("What your name")  /* INPUT */
-
-// var welcomeMessage = "This script works"  + username  /* PROCESSING */
-
-// alert(welcomeMessage)  /* OUTPUT */
-
-var btnTranslate = document.querySelector("#btn-translate") 
-var txtInput = document.querySelector("#txt-input")
-var outputDiv = document.querySelector('#output')
 
 
-// var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json" // Mock server
+var txtInput = document.querySelector(".txt-input")
+var outputDiv = document.querySelector(".output")
+var btnTranslate = document.querySelector(".btn-translate") 
 
-var serverURL = "	https://api.funtranslations.com/translate/russian-accent.json"
+
+var serverURL = "	https://api.funtranslations.com/translate/sith.json"
 
 
 function getTranslationURL(input){

@@ -1,0 +1,80 @@
+body{
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #B91C1C, 0 0 20px #B91C1C, 0 0 25px #B91C1C, 0 0 30px #B91C1C, 0 0 35px #B91C1C;
+    font-family: 'Orbitron', sans-serif;
+    background-image: url('Images/backgroun.jpg');
+}
+
+.contents {
+    max-width: 500px;
+    margin: auto;
+}
+
+.heading{
+    text-align: center;
+    padding-left: 1rem;
+    font-size: 4rem ;
+}
+.heading .mini {
+
+    max-width: 150px;
+    display: inline-flex;
+    vertical-align: middle;
+    /* padding-left: 9rem; */
+    margin: auto;
+}
+
+.textarea .txt-input{
+    border: 3.5px solid black;
+    width: 93%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.section{
+    padding-left: 1rem;
+    text-align: center;
+}
+
+.section .btn-translate { 
+    display: inline-block;
+    padding: 12px 35px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #B91C1C;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4.5px #fff;
+  }
+  
+.section .btn-translate:hover {
+    background-color: #4B5563
+}
+
+.section .btn-translate:active {
+    background-color: #B91C1C;
+    box-shadow: 0 4px #666;
+    transform: translateY(3px);
+  }
+
+
+
+.output{
+    border: 3.5px solid black;
+    height: 10vh;
+    width: 93%;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.output-text{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}

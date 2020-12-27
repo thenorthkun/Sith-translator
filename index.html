@@ -3,38 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Russian accent</title>
-    <style>
-        textarea{
-            width: 90%;
-            height: 10vh;
-            display: block;
-            margin: 1rem;
-            padding: 1rem;
-        }
-
-        #output{
-            border: 1px solid black;
-            height: 10vh;
-            width: 80%;
-            margin: 1rem;
-            padding: 1rem;
-        }
-    </style>
+    <title>Sith Translator</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet"> 
     
 </head>
 <body>
-    <h1>Ruussssiiiaaan</h1>
-    <textarea id="txt-input"
-    placeholder="Put your sentence in English here"></textarea>
-    
-    <button id="btn-translate">Translate</button>
+    <div class="contents">
 
-    <div style = "font-size: larger;">Output will come here 👇 </div>
-    <div id="output"></div>
-    <script src = "app.js" type = "text/javascript"></script>
+        <h1 class="heading">The Language of the Sith</h1>
+        <div class = "textarea">
+            <textarea class="txt-input"
+            placeholder="The force commands you to type here in English & the order will forsee !"></textarea>
+        
+        </div>
 
     
+        
+        <section class="section">
+            <button class="btn-translate">Translate </button>
+        </section>
+
+        <div class="output-text">Output will come here  </div>
+        <div class="output"></div>
+        <script src = "app.js" type = "text/javascript"></script>
+    </div>
+
     
 </body>
 </html>
