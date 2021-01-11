@@ -5,7 +5,7 @@ var outputDiv = document.querySelector(".output")
 var btnTranslate = document.querySelector(".btn-translate") 
 
 
-var serverURL = "	https://api.funtranslations.com/translate/sith.json"
+var serverURL = "https://api.funtranslations.com/translate/sith.json"
 
 
 function getTranslationURL(input){
